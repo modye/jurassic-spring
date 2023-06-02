@@ -2,7 +2,6 @@ package bzh.jurassic.spring.interfaces;
 
 import bzh.jurassic.spring.application.DinosLister;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +17,7 @@ public class JurassicController {
     @Autowired
     private DinosLister dinosLister;
 
-    @GetMapping
+    @GetMapping("/graouuu")
     public ResponseEntity<String> graouuu() {
         return ResponseEntity.ok("\uD83E\uDD96 Graaaaaouuuuu le BreizhCamp !! \uD83E\uDD96");
     }
