@@ -1,0 +1,23 @@
+
+[
+  {
+    "name": "Iguanodon",
+    "feed": 500
+  },
+  {
+    "name": "T-Rex",
+    "feed": 1000
+  },
+  {
+    "name": "Triceratops",
+    "feed": 890
+  },
+  {
+    "name": "Tylausore",
+    "feed": 700
+  },
+  {
+    "name": "Velociraptor",
+    "feed": 800
+  }
+]
