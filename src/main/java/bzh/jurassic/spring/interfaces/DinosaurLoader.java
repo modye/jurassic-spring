@@ -31,10 +31,16 @@ public class DinosaurLoader {
         list.forEach(data -> dinosaurs.put(data.name, data.feed));
     }
 
-
+    public ConcurrentHashMap<String, Integer> getDinosaurs() {
+        return dinosaurs;
+    }
 
     public int getMaxStock() {
         return maxStock;
+    }
+
+    public void setMaxStock(int needFeed) {
+        this.maxStock -= needFeed;
     }
 
     private static class Dinosaur {
