@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path = "/api/jurassic")
 public class JurassicController {
 
-    private final DinosFeeder feeder;
+    private final DinosFeederService feeder;
 
-    public JurassicController(DinosFeeder feeder) {
+    public JurassicController(DinosFeederService feeder) {
         this.feeder = feeder;
     }
 
